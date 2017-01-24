@@ -12,7 +12,7 @@ import math
 import os
 
 
-LIST_OF_APPS="python-smbus python-matplotlib python-pip gfortran libi2c-dev python-setuptools libblas-dev libatlas-base-dev liblapack-dev python-dev mysql-server python-mysqldb phpmyadmin"
+LIST_OF_APPS=['python-smbus', 'python-matplotlib', 'python-pip', 'gfortran', 'libi2c-dev', 'python-setuptools', 'libblas-dev', 'libatlas-base-dev', 'liblapack-dev', 'python-dev', 'mysql-server', 'python-mysqldb', 'phpmyadmin'];
 
 os.system('ls')
 print('Lets delete unused folders, dont worry, nothing important')
