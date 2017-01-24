@@ -16,13 +16,13 @@ LIST_OF_APPS="python-smbus python-matplotlib python-pip gfortran libi2c-dev pyth
 
 os.system('ls')
 print('Lets delete unused folders, dont worry, nothing important')
-input('Press Enter to continue...')
+#input('Press Enter to continue...')
 
 os.system('cd')
 os.system('sudo rm -rf Documents  Downloads  Music  Pictures  python_games  Templates  Videos')
 
 print('Ok, lets grab the required packages')
-input('Press Enter to continue...')
+#input('Press Enter to continue...')
 
 os.system('cd')
 os.system('sudo apt-get update -y')
