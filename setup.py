@@ -26,7 +26,7 @@ print('Ok, lets grab the required packages')
 
 os.system('cd')
 os.system('sudo apt-get update -y')
-os.system('sudo apt-get install -y', LIST_OF_APPS)
+os.system("sudo apt-get install -y "+LIST_OF_APPS)
 
 print(' ')
 print('Cloning weather scripts')
