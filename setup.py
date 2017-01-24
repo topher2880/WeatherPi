@@ -47,3 +47,4 @@ os.system('sudo easy_install scipy -y')
 os.system('sudo pip install tentacle_pi')
 
 os.system('cd')
+exit()
