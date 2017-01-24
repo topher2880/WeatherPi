@@ -26,7 +26,7 @@ input("Press Enter to continue...")
 
 os.system('cd')
 os.system('sudo apt-get update -y')
-os.system('sudo apt-get install') + $LIST_OF_APPS + (' -y')
+os.system('sudo apt-get install') + LIST_OF_APPS + (' -y')
 
 print(' ')
 print('Cloning weather scripts')
