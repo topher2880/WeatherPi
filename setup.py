@@ -14,7 +14,14 @@ import os
 
 LIST_OF_APPS="python-smbus python-matplotlib python-pip gfortran libi2c-dev python-setuptools libblas-dev libatlas-base-dev liblapack-dev python-dev mysql-server python-mysqldb phpmyadmin"
 
-print('Lets grab the required packages')
+os.system('ls')
+print('Lets delete unused folders, dont worry, nothing important')
+input("Press Enter to continue...")
+
+os.system('cd')
+os.system('sudo rm -rf Documents  Downloads  Music  Pictures  python_games  Templates  Videos')
+
+print('Ok, lets grab the required packages')
 input("Press Enter to continue...")
 
 os.system('cd')
