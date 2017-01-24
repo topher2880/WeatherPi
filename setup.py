@@ -14,11 +14,16 @@ import os
 
 LIST_OF_APPS="python-smbus python-matplotlib python-pip gfortran libi2c-dev python-setuptools libblas-dev libatlas-base-dev liblapack-dev python-dev mysql-server python-mysqldb phpmyadmin"
 
+print('Lets grab the required packages')
+input("Press Enter to continue...")
+
 os.system('cd')
 os.system('sudo apt-get update -y')
 os.system('sudo apt-get install -y $LIST_OF_APPS')
 
-os.system('sudo apt-get update -y')
+print(' ')
+print('Cloning weather scripts')
+print(' ')
 
 os.system('cd')
 os.system('sudo git clone https://github.com/topher2880/SDL_Pi_GroveWeatherPi')
@@ -27,6 +32,11 @@ os.system('cd Adafruit_Python_PureIO')
 os.system('sudo python setup.py install')
 os.system('cd')
 
+print(' ')
+print('This will take a while')
+print(' ')
+
 os.system('sudo easy_install scipy -y')
 os.system('sudo pip install tentacle_pi')
 
+os.system('cd')
