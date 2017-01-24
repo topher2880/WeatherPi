@@ -17,15 +17,15 @@ print('cd')
 print('sudo apt-get update -y')
 print('sudo apt-get install -y $LIST_OF_APPS')
 
-sudo apt-get update -y
+print('sudo apt-get update -y')
 
-cd
-sudo git clone https://github.com/topher2880/SDL_Pi_GroveWeatherPi
-sudo git clone https://github.com/adafruit/Adafruit_Python_PureIO.git
-cd Adafruit_Python_PureIO
-sudo python setup.py install
-cd
+print('cd')
+print('sudo git clone https://github.com/topher2880/SDL_Pi_GroveWeatherPi')
+print('sudo git clone https://github.com/adafruit/Adafruit_Python_PureIO.git')
+print('cd Adafruit_Python_PureIO')
+print('sudo python setup.py install')
+print('cd')
 
-sudo easy_install scipy -y
-sudo pip install tentacle_pi
+print('sudo easy_install scipy -y')
+print('sudo pip install tentacle_pi')
 
