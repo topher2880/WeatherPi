@@ -1,10 +1,17 @@
 # WeatherPi
-Switchdoc Labs code
 
-sudo apt-get install python-smbus python-matplotlib python-pip gfortran libi2c-dev python-setuptools libblas-dev libatlas-base-dev liblapack-dev python-dev
+Original coding by Switchdoc Labs
 
-sudo easy_install scipy  -y && sudo pip install tentacle_pi 
+This is a quick setup from Raspbian for all the depends and things required to run the SDL weather pi hardware with little hassle.
 
-sudo git clone https://github.com/switchdoclabs/SDL_Pi_GroveWeatherPi && git clone https://github.com/adafruit/Adafruit_Python_PureIO.git && cd Adafruit_Python_PureIO && cd && sudo python setup.py install
-&& sudo apt-get update -y && sudo apt-get upgrade -y && cd  && 
+We assume you have already installed Raspbian or Raspbian Lite from N00bs and therefore have Python installed, even the bare essentials.
+
+The python script for setting everything up is a work-in-progress, and dont expect it to work, ever.
+
+to run;
+sudo git clone https://github.com/topher2880/WeatherPi 
+cd WeatherPi
+sudo python setup.py
+
+
 
