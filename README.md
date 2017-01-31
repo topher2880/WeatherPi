@@ -8,9 +8,12 @@ We assume you have already installed Raspbian or Raspbian Lite from N00bs and th
 
 The python script for setting everything up is a work-in-progress, and dont expect it to work, ever.
 
-to run;
-sudo git clone https://github.com/topher2880/WeatherPi 
+to run the script
+
+sudo git clone https://github.com/topher2880/WeatherPi
+
 cd WeatherPi
+
 sudo python setup.py
 
 
