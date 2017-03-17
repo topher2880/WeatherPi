@@ -50,4 +50,4 @@ os.system('sudo pip install tentacle_pi')
 
 os.system('cd')
 os.system('sudo apt-get install weewx')
-exit 0
+
