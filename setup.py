@@ -35,7 +35,7 @@ print('Cloning weather scripts')
 print(' ')
 
 os.system('cd')
-os.system('sudo git clone https://github.com/topher2880/SDL_Pi_GroveWeatherPi')
+os.system('sudo git clone https://github.com/switchdoclabs/WeatherPi')
 os.system('sudo git clone https://github.com/adafruit/Adafruit_Python_PureIO.git')
 os.system('cd Adafruit_Python_PureIO')
 os.system('sudo python setup.py install')
