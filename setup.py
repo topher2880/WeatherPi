@@ -29,10 +29,9 @@ os.system('curl -s http://weewx.com/keys.html | sudo apt-key add -')
 os.system('echo "deb [arch=all] http://weewx.com/apt/ squeeze main" | sudo tee /etc/apt/sources.list.d/weewx.list')
 os.system('sudo apt-get update -y')
 os.system("sudo apt-get install -y "+LIST_OF_APPS)
-
-os.system('cd')
+#
 os.system('sudo apt-get install weewx')
-
+#
 os.system('cd')
 os.system('sudo git clone https://github.com/switchdoclabs/SDL_Pi_GroveWeatherPi')
 os.system('sudo git clone https://github.com/adafruit/Adafruit_Python_PureIO.git')
@@ -41,11 +40,10 @@ os.system('sudo python setup.py install')
 os.system('sudo pip install --upgrade setuptools pip')
 os.system('sudo pip install setuptools --upgrade')
 os.system('sudo pip install apscheduler')
-
-
+#
 os.system('cd')
 os.system('sudo easy_install scipy -y')
 os.system('sudo pip install tentacle_pi')
-
+#
 os.system('cd')
 sys.exit()
